@@ -2,7 +2,7 @@
 
 ## 1. Open Coordination Infrastructure Landscape Survey — current
 
-Research existing open standards, protocols, and implementations before specifying or implementing OpenCoord. Compare maturity, governance, license, decentralization, interoperability, local/offline behavior where relevant, security, dependencies, and fit. Start with [standards/landscape.md](../standards/landscape.md).
+Research existing open standards, protocols, and implementations before specifying or implementing CoordMesh. Compare maturity, governance, license, decentralization, interoperability, local/offline behavior where relevant, security, dependencies, and fit. Start with [standards/landscape.md](../standards/landscape.md).
 
 Focused work items:
 

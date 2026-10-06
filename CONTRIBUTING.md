@@ -1,6 +1,6 @@
 # Contributing
 
-OpenCoord is in research-first bootstrap. Useful contributions include primary-source standards research, implementation/project comparisons, scenario refinement, documentation, and focused proposals.
+CoordMesh is in research-first bootstrap. Useful contributions include primary-source standards research, implementation/project comparisons, scenario refinement, documentation, and focused proposals.
 
 ## Before proposing protocol behavior
 

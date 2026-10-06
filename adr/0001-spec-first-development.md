@@ -13,7 +13,7 @@ Where appropriate, develop in the order specification → schema → conformance
 
 ## Consequences
 
-This may delay implementation while research proceeds, but reduces the risk that a reference implementation silently becomes the specification. Some integrations may need no OpenCoord schema or code.
+This may delay implementation while research proceeds, but reduces the risk that a reference implementation silently becomes the specification. Some integrations may need no CoordMesh schema or code.
 
 ## Open questions
 

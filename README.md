@@ -1,8 +1,8 @@
-# OpenCoord
+# CoordMesh
 
 **Open infrastructure for decentralized coordination.**
 
-OpenCoord explores reusable, composable open mechanisms for coordinating needs, resources, capabilities, time, access, rights, responsibilities, agreements, decisions, and economic activity. It aims to help many applications interoperate without prescribing the institutions built on top.
+CoordMesh explores reusable, composable open mechanisms for coordinating needs, resources, capabilities, time, access, rights, responsibilities, agreements, decisions, and economic activity. It aims to help many applications interoperate without prescribing the institutions built on top.
 
 The project is independent. NOverhead is an initial bootstrapper and contributor, with no permanent privileged role. The repository is the source of truth; GitHub is current bootstrap infrastructure, not part of the protocol.
 

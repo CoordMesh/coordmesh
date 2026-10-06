@@ -2,7 +2,7 @@
 
 ## Purpose
 
-OpenCoord is independent open infrastructure for decentralized coordination. It explores generic mechanisms that applications can compose; it does not prescribe institutions. Read [README](README.md), [vision](docs/vision.md), [principles](docs/principles.md), [architecture](docs/architecture.md), [governance](GOVERNANCE.md), and [roadmap](docs/roadmap.md) for project context.
+CoordMesh is independent open infrastructure for decentralized coordination. It explores generic mechanisms that applications can compose; it does not prescribe institutions. Read [README](README.md), [vision](docs/vision.md), [principles](docs/principles.md), [architecture](docs/architecture.md), [governance](GOVERNANCE.md), and [roadmap](docs/roadmap.md) for project context.
 
 ## Source of truth and next work
 

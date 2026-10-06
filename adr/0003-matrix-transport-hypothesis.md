@@ -9,7 +9,7 @@ Matrix appears to provide federated event synchronization, extensible events, ro
 
 ## Proposal
 
-Evaluate Matrix as a first transport/event/federation candidate while keeping any OpenCoord domain semantics transport-independent. This ADR records a hypothesis for research, not an implementation commitment or requirement.
+Evaluate Matrix as a first transport/event/federation candidate while keeping any CoordMesh domain semantics transport-independent. This ADR records a hypothesis for research, not an implementation commitment or requirement.
 
 ## Consequences
 

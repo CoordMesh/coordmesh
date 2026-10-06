@@ -5,7 +5,7 @@
 
 ## Context
 
-OpenCoord should integrate existing technology where adequate and avoid novel protocol mechanisms without evidence of a gap.
+CoordMesh should integrate existing technology where adequate and avoid novel protocol mechanisms without evidence of a gap.
 
 ## Proposal
 

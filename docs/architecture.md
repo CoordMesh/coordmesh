@@ -2,7 +2,7 @@
 
 ## Boundary
 
-OpenCoord may ultimately be a small integration and profile layer connecting existing systems for communication/federation, identity and credentials, resource/economic models, payments, geography, scheduling, and distributed storage or compute. It need not replace these systems and may require little custom code.
+CoordMesh may ultimately be a small integration and profile layer connecting existing systems for communication/federation, identity and credentials, resource/economic models, payments, geography, scheduling, and distributed storage or compute. It need not replace these systems and may require little custom code.
 
 Keep any domain model independent of transport. If Matrix proves suitable, it may be a first event/transport/federation adapter, not an unquestionable foundation. GitHub is current project hosting only and has no protocol meaning.
 
@@ -25,6 +25,6 @@ Never invent cryptography. Implementations must not silently define semantics. P
 - ValueFlows or related vocabularies may cover much of resource, process, and economic coordination.
 - Identity should distinguish cryptographic continuity from claims made by issuers; DID and VC standards may provide relevant building blocks without requiring a universal identity authority.
 - Offline/local operation and later synchronization may be important properties, but requirements and tradeoffs need scenario-based research.
-- OpenCoord itself may chiefly profile and connect standards rather than define a large protocol.
+- CoordMesh itself may chiefly profile and connect standards rather than define a large protocol.
 
 These remain open until supported by the landscape survey and reviewed ADRs.
