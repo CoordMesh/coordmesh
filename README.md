@@ -8,17 +8,24 @@ The project is independent. NOverhead is an initial bootstrapper and contributor
 
 ## Status
 
-Research and project bootstrap. Candidate concepts and technologies are hypotheses, not accepted protocol primitives or dependencies. The first milestone is an open infrastructure landscape survey. No protocol implementation is planned before that research identifies a specific gap.
+The first research/architecture milestone is complete: the landscape survey,
+Three Neighbors mappings, implementation review, model projection experiment,
+and candidate architecture synthesis are documented. The candidate architecture
+is not an accepted ADR, and no new protocol or implementation is justified.
+Next is targeted gap validation before any profile or protocol proposal.
 
 ## Start here
 
-- [Vision](docs/vision.md) and [principles](docs/principles.md)
+- [Vision](docs/vision.md)
+- [Principles](docs/principles.md)
 - [Architecture boundaries and hypotheses](docs/architecture.md)
 - [Candidate architecture synthesis](docs/candidate-architecture.md)
+- [Three Neighbors scenario](scenarios/three-neighbors/README.md)
 - [Standards landscape and research method](standards/landscape.md)
+- [ValueFlows implementation interoperability review](standards/valueflows-implementation-interoperability.md)
+- [Interoperability experiment and fixtures](experiments/valueflows-three-neighbors/README.md)
 - [Roadmap](docs/roadmap.md)
 - [Governance](GOVERNANCE.md) and [contributing](CONTRIBUTING.md)
-- [Three Neighbors scenario](scenarios/three-neighbors/README.md)
 - [Agent instructions](AGENTS.md)
 
 ## License

@@ -1,6 +1,6 @@
 # Roadmap
 
-## 1. Open Coordination Infrastructure Landscape Survey — synthesis in progress
+## 1. Research and architecture synthesis — completed
 
 Research existing open standards, protocols, and implementations before specifying or implementing CoordMesh. Compare maturity, governance, license, decentralization, interoperability, local/offline behavior where relevant, security, dependencies, and fit. Start with [standards/landscape.md](../standards/landscape.md).
 
@@ -18,16 +18,22 @@ Focused work items:
 When GitHub is configured, create these as focused issues rather than expanding a speculative backlog.
 
 The initial survey, ValueFlows/ODRL scenario mapping, implementation review,
-and model projection experiment now feed the [candidate architecture
-synthesis](candidate-architecture.md). The research phase is not complete:
-the experiment was model-level rather than a live exchange, and the first
-profile/protocol exit criterion in that document has not been met. The next
-work should close a specific evidence question rather than add broad technology
-coverage.
+model projection experiment, and [candidate architecture synthesis](candidate-architecture.md)
+complete this bounded research/architecture milestone. The synthesis remains
+a candidate, not an accepted ADR. The model projection was not a live exchange;
+the research-phase exit criterion for a profile or protocol has not been met.
+This completion does not claim that the standards landscape is exhaustive.
 
-## 2. Gap and profile decisions
+## 2. Targeted gap validation and profile decisions — next phase
 
-Review research, document uncertainties, propose ADRs for significant conclusions, and decide whether a profile, integration, or new mechanism is actually needed.
+Close a specific evidence question from the synthesis using pinned versions and
+reproducible exchange evidence. Recheck the hREA/Bonfire `fulfills` and external
+identifier findings against their current released interfaces, then decide
+whether an adapter experiment is sufficient or a shared profile is genuinely
+needed. Do not expand the survey or draft a profile by default. Follow the
+research-phase exit criterion in the candidate architecture before proposing
+normative behavior. Significant conclusions may receive a Proposed ADR; do not
+accept architecture without project review.
 
 ## 3. Specification and conformance
 
