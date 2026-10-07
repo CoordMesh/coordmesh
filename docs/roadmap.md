@@ -23,6 +23,10 @@ complete this bounded research/architecture milestone. The synthesis remains
 a candidate, not an accepted ADR. The model projection was not a live exchange;
 the research-phase exit criterion for a profile or protocol has not been met.
 This completion does not claim that the standards landscape is exhaustive.
+The [drill-loan example](../examples/drill-loan/README.md) now provides a
+small executable check of independent ValueFlows JSON-LD interpretation over
+a temporary filesystem mailbox. It does not test Matrix, federation, or
+third-party implementation conformance.
 
 ## 2. Targeted gap validation and profile decisions — next phase
 

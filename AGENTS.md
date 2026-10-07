@@ -6,7 +6,7 @@ CoordMesh is independent open infrastructure for decentralized coordination. It 
 
 ## Source of truth and next work
 
-This repository is the project source of truth. The current next work is the [Open Coordination Infrastructure Landscape Survey](docs/roadmap.md), beginning with [standards/landscape.md](standards/landscape.md). Check the roadmap and project issues for current sequencing. Do not assume the originating conversation is available.
+This repository is the project source of truth. The initial research/architecture milestone and the non-normative executable drill-loan interoperability example are documented. The next work is targeted gap validation as described in [the roadmap](docs/roadmap.md); do not restart broad landscape research unless a specific evidence question requires it. Check project issues for current sequencing. Do not assume the originating conversation is available.
 
 ## Invariants
 

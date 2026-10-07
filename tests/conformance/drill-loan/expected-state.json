@@ -1,0 +1,34 @@
+{
+  "provider": "https://example.org/coordmesh/drill-loan/participant/alice",
+  "receiver": "https://example.org/coordmesh/drill-loan/participant/bob",
+  "resource": "https://example.org/coordmesh/drill-loan/resource/drill-x",
+  "action": "https://w3id.org/valueflows/ont/vf#use",
+  "interval": {
+    "start": "2026-10-10T14:00:00Z",
+    "end": "2026-10-10T16:00:00Z"
+  },
+  "agreement": "https://example.org/coordmesh/drill-loan/agreement/loan-1",
+  "commitment": "https://example.org/coordmesh/drill-loan/commitment/use-1",
+  "commitmentSatisfies": "https://example.org/coordmesh/drill-loan/intent/request-1",
+  "commitmentClauseOf": "https://example.org/coordmesh/drill-loan/agreement/loan-1",
+  "custodyEvents": [
+    {
+      "id": "https://example.org/coordmesh/drill-loan/event/handover-1",
+      "action": "https://w3id.org/valueflows/ont/vf#transfer-custody",
+      "provider": "https://example.org/coordmesh/drill-loan/participant/alice",
+      "receiver": "https://example.org/coordmesh/drill-loan/participant/bob",
+      "resource": "https://example.org/coordmesh/drill-loan/resource/drill-x",
+      "at": "2026-10-10T14:00:00Z"
+    },
+    {
+      "id": "https://example.org/coordmesh/drill-loan/event/return-1",
+      "action": "https://w3id.org/valueflows/ont/vf#transfer-custody",
+      "provider": "https://example.org/coordmesh/drill-loan/participant/bob",
+      "receiver": "https://example.org/coordmesh/drill-loan/participant/alice",
+      "resource": "https://example.org/coordmesh/drill-loan/resource/drill-x",
+      "at": "2026-10-10T16:00:00Z"
+    }
+  ],
+  "finalCustodian": "https://example.org/coordmesh/drill-loan/participant/alice",
+  "result": "returned"
+}
