@@ -59,6 +59,8 @@ This mapping is a research result, not an adopted CoordMesh profile or protocol 
 
 The initial landscape treated the drill mapping and the boundary between ValueFlows commitments and ODRL policy as open. Primary specifications refine that hypothesis: the baseline scenario is representable by existing standards, with ValueFlows especially strong for economic/resource flows and ODRL for explicit policy permissions and duties. There is no evidence here for an **INVENT** decision. This does not accept ValueFlows, ODRL, a profile, or any architecture as a CoordMesh dependency. The concrete remaining question is whether implementations need a shared cross-standard mapping, particularly for physical return, condition/remedies, and early termination. No accepted ADR or architecture decision is changed by this research.
 
+The follow-up [implementation review](../../standards/valueflows-implementation-interoperability.md) found aligned core action identifiers and ValueFlows-shaped fields in hREA and Bonfire, but no demonstrated data exchange between them and uneven implementation of event-to-commitment links. This is not enough evidence to justify a CoordMesh profile; a concrete exchange test should first identify a loss or ambiguity.
+
 ### Primary sources for this mapping
 
 - [ValueFlows formatted vocabulary](https://www.valueflo.ws/specification/all_vf/) — normative vocabulary descriptions for Agent, Agreement, Commitment, EconomicEvent, EconomicResource, Intent, Proposal, ResourceSpecification, accountability, and time fields.
