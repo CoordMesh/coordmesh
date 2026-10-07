@@ -46,6 +46,10 @@ hREA's GraphQL adapter and Bonfire's optional GraphQL API expose overlapping fie
 
 A profile should be reconsidered only after a concrete, participant-approved test requires multiple independent systems to exchange the Three Neighbors data and the test identifies a specific ambiguity or lossy mapping that cannot be resolved by using ValueFlows RDF terms, JSON-LD, or existing API conventions. At that point profile scope should be limited to the demonstrated mapping and accompanied by conformance cases.
 
+### Follow-up model projection experiment
+
+The non-normative [Three Neighbors ValueFlows model projection experiment](../experiments/valueflows-three-neighbors/README.md) maps a small JSON-LD-shaped fixture to the inspected hREA and Bonfire model shapes. It demonstrates a pinned-source Bonfire implementation limitation for EconomicEvent → Commitment `fulfills`, while leaving runtime JSON-LD/API interoperability untested. This evidence does not change the conclusion above: it does not yet justify a CoordMesh profile.
+
 ## Licensing and governance check
 
 ### ValueFlows

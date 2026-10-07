@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@vocab": "https://w3id.org/valueflows/ont/vf#",
+    "vf": "https://w3id.org/valueflows/ont/vf#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "hasBeginning": { "@type": "xsd:dateTime" },
+    "hasEnd": { "@type": "xsd:dateTime" },
+    "hasPointInTime": { "@type": "xsd:dateTime" },
+    "action": { "@type": "@id" },
+    "provider": { "@type": "@id" },
+    "receiver": { "@type": "@id" },
+    "resourceInventoriedAs": { "@type": "@id" },
+    "satisfies": { "@type": "@id" },
+    "fulfills": { "@type": "@id", "@container": "@set" },
+    "primaryAccountable": { "@type": "@id" }
+  },
+  "@graph": [
+    { "@id": "https://example.invalid/three-neighbors/alice", "@type": "Agent", "name": "Alice" },
+    { "@id": "https://example.invalid/three-neighbors/bob", "@type": "Agent", "name": "Bob" },
+    {
+      "@id": "https://example.invalid/three-neighbors/drill",
+      "@type": "EconomicResource",
+      "trackingIdentifier": "https://example.invalid/three-neighbors/drill",
+      "primaryAccountable": "https://example.invalid/three-neighbors/alice"
+    },
+    {
+      "@id": "https://example.invalid/three-neighbors/use-intent",
+      "@type": "Intent",
+      "action": "https://w3id.org/valueflows/ont/vf#use",
+      "provider": "https://example.invalid/three-neighbors/alice",
+      "receiver": "https://example.invalid/three-neighbors/bob",
+      "resourceInventoriedAs": "https://example.invalid/three-neighbors/drill",
+      "hasBeginning": "2026-10-10T09:00:00Z",
+      "hasEnd": "2026-10-10T17:00:00Z"
+    },
+    {
+      "@id": "https://example.invalid/three-neighbors/use-commitment",
+      "@type": "Commitment",
+      "action": "https://w3id.org/valueflows/ont/vf#use",
+      "provider": "https://example.invalid/three-neighbors/alice",
+      "receiver": "https://example.invalid/three-neighbors/bob",
+      "resourceInventoriedAs": "https://example.invalid/three-neighbors/drill",
+      "hasBeginning": "2026-10-10T09:00:00Z",
+      "hasEnd": "2026-10-10T17:00:00Z",
+      "satisfies": "https://example.invalid/three-neighbors/use-intent"
+    },
+    {
+      "@id": "https://example.invalid/three-neighbors/use-event",
+      "@type": "EconomicEvent",
+      "action": "https://w3id.org/valueflows/ont/vf#use",
+      "provider": "https://example.invalid/three-neighbors/alice",
+      "receiver": "https://example.invalid/three-neighbors/bob",
+      "resourceInventoriedAs": "https://example.invalid/three-neighbors/drill",
+      "hasBeginning": "2026-10-10T09:00:00Z",
+      "hasEnd": "2026-10-10T17:00:00Z",
+      "fulfills": ["https://example.invalid/three-neighbors/use-commitment"]
+    },
+    {
+      "@id": "https://example.invalid/three-neighbors/handover-event",
+      "@type": "EconomicEvent",
+      "action": "https://w3id.org/valueflows/ont/vf#transfer-custody",
+      "provider": "https://example.invalid/three-neighbors/alice",
+      "receiver": "https://example.invalid/three-neighbors/bob",
+      "resourceInventoriedAs": "https://example.invalid/three-neighbors/drill",
+      "hasPointInTime": "2026-10-10T09:00:00Z"
+    },
+    {
+      "@id": "https://example.invalid/three-neighbors/return-event",
+      "@type": "EconomicEvent",
+      "action": "https://w3id.org/valueflows/ont/vf#transfer-custody",
+      "provider": "https://example.invalid/three-neighbors/bob",
+      "receiver": "https://example.invalid/three-neighbors/alice",
+      "resourceInventoriedAs": "https://example.invalid/three-neighbors/drill",
+      "hasPointInTime": "2026-10-10T17:00:00Z"
+    }
+  ]
+}
