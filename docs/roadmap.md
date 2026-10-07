@@ -1,6 +1,6 @@
 # Roadmap
 
-## 1. Open Coordination Infrastructure Landscape Survey — current
+## 1. Open Coordination Infrastructure Landscape Survey — synthesis in progress
 
 Research existing open standards, protocols, and implementations before specifying or implementing CoordMesh. Compare maturity, governance, license, decentralization, interoperability, local/offline behavior where relevant, security, dependencies, and fit. Start with [standards/landscape.md](../standards/landscape.md).
 
@@ -16,6 +16,14 @@ Focused work items:
 8. Define a first conformance scenario only after preceding research.
 
 When GitHub is configured, create these as focused issues rather than expanding a speculative backlog.
+
+The initial survey, ValueFlows/ODRL scenario mapping, implementation review,
+and model projection experiment now feed the [candidate architecture
+synthesis](candidate-architecture.md). The research phase is not complete:
+the experiment was model-level rather than a live exchange, and the first
+profile/protocol exit criterion in that document has not been met. The next
+work should close a specific evidence question rather than add broad technology
+coverage.
 
 ## 2. Gap and profile decisions
 

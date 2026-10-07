@@ -14,6 +14,7 @@ Research and project bootstrap. Candidate concepts and technologies are hypothes
 
 - [Vision](docs/vision.md) and [principles](docs/principles.md)
 - [Architecture boundaries and hypotheses](docs/architecture.md)
+- [Candidate architecture synthesis](docs/candidate-architecture.md)
 - [Standards landscape and research method](standards/landscape.md)
 - [Roadmap](docs/roadmap.md)
 - [Governance](GOVERNANCE.md) and [contributing](CONTRIBUTING.md)

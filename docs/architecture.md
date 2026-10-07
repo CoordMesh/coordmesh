@@ -1,5 +1,10 @@
 # Architecture and open hypotheses
 
+The evidence-based [candidate architecture](candidate-architecture.md) now
+proposes composition and conformance as CoordMesh's primary role, with
+profiles and reference integrations only when a tested scenario justifies
+them. This remains a candidate, not an accepted ADR or normative design.
+
 ## Boundary
 
 CoordMesh may ultimately be a small integration and profile layer connecting existing systems for communication/federation, identity and credentials, resource/economic models, payments, geography, scheduling, and distributed storage or compute. It need not replace these systems and may require little custom code.
@@ -25,6 +30,9 @@ Never invent cryptography. Implementations must not silently define semantics. P
 - ValueFlows or related vocabularies may cover much of resource, process, and economic coordination.
 - Identity should distinguish cryptographic continuity from claims made by issuers; DID and VC standards may provide relevant building blocks without requiring a universal identity authority.
 - Offline/local operation and later synchronization may be important properties, but requirements and tradeoffs need scenario-based research.
-- CoordMesh itself may chiefly profile and connect standards rather than define a large protocol.
+- CoordMesh may chiefly compose and test existing standards, with narrow profiles or integrations only where evidence calls for them.
 
-These remain open until supported by the landscape survey and reviewed ADRs.
+The landscape and scenario research now support composition/conformance as the
+leading candidate role. These are still hypotheses, not accepted architecture;
+project-wide adoption requires visible review and an ADR when a decision is
+actually warranted.
